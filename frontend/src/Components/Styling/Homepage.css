@@ -1,0 +1,45 @@
+.homeImages{
+    max-width: 100%;
+    height: 100%;
+}
+.postContainer{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+}
+.postBtn{
+    margin: 1rem 1rem 0 0;
+    padding: .7rem;
+    border-radius: 50%;
+}
+.postBtn:hover{
+    background-color: aqua;
+}
+.reactCount{
+    margin-left: 1rem;
+}
+.title{
+    margin-right: 3rem;
+    margin-bottom: 1rem;
+}
+.commentContainer{
+    border: 1px solid black;
+    padding: .5rem 1rem;
+    margin: 1rem 0;
+    border-radius: 15px;
+    min-width: 330px;
+}
+.username{
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.date{
+    font-style: italic;
+}
+.comment{
+    margin-left: 1rem;
+}
+.input-group{
+    min-width: 328px;
+}

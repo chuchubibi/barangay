@@ -1,0 +1,63 @@
+a{
+    text-decoration: none;
+    color: #041976;
+}
+.navlink{
+    margin-left: 2rem;
+}
+    .navlink:hover{
+        color: red; 
+    }
+#basic-nav-dropdown {
+    margin-left: 2rem;
+    padding: 0;
+    color: #041976;
+}
+    #basic-nav-dropdown:hover{
+        color: red;
+    }
+.brand{
+    font-size: 2rem;
+    color: #041976;
+}
+#lastmenu{
+    margin-left: 2rem;
+    padding: 0;
+    color: #041976;
+}
+    #lastmenu:hover{
+        color: red;
+    }
+.logout{
+    text-align: center;
+}
+.menu{
+    font-size: 1.1rem;
+}
+.barangayLogo{
+    width: 7%;
+}
+
+.navbar{
+    min-width: 370px;
+}
+
+@media (max-width: 600px) {
+    .barangayLogo{
+       min-width: 15%;
+    }
+    .brand{
+        font-size: 1.5rem;
+    }
+    
+}
+
+@media (min-width: 601px) and (max-width: 912px){
+    .barangayLogo{
+       min-width: 15%;
+    }
+    .brand{
+        font-size: 2.5rem;
+    }
+    
+}

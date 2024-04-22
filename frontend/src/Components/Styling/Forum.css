@@ -1,0 +1,26 @@
+.forumContainer{
+    border: 1px solid black;
+    width: 100%;
+    min-height: 60vh;
+    border-radius: 10px;
+}
+.forumForm{
+    margin-bottom: 5rem;
+}
+.forumrules{
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+.message{
+    border: 1px solid rgba(48, 47, 47, 0.76);
+    margin: .5rem 0;
+    padding: .5rem 1rem;
+    border-radius: 15px;
+}
+.messageDate{
+    margin-left: 3rem;
+    color: rgba(255, 0, 0, 0.658);
+}
+.messageContent{
+    margin-left: 1rem;
+}

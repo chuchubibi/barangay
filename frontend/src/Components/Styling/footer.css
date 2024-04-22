@@ -1,0 +1,33 @@
+.footerMenu {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.footerMenu li {
+    margin: 0 5rem;
+}
+
+@media (max-width: 789px) {
+    .footerMenu li {
+        margin: 0 1rem;
+    }
+}
+
+@media (min-width: 790px) {
+    .footerMenu li {
+        margin: 0 2rem;
+    }
+}
+
+@media (max-width: 603px) {
+    .footerMenu {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .footerMenu li {
+        margin: 1rem 0;
+    }
+}
